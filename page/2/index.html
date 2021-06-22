@@ -141,6 +141,66 @@
                 
 
                 <h3 class="home-article-title">
+                    <a href="/blog/2021/05/22/localStorage%E5%92%8CsessionStorage/">
+                        localStorage和sessionStorage
+                    </a>
+                </h3>
+
+                <div class="home-article-content markdown-body">
+                    
+                        localStoragelocalStorage有一点跟Cookie一样，就是针对一个域名，即在同一个域名下，会存储相同的一段localStorage。
+不过它相对Cookie还是有相当多的区别的:
+
+容量。localStorage 的容量上限为5M...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Sat May 22 2021 17:13:13 GMT+0800">2021-05-22</span></span>
+        
+        
+    </div>
+
+    <a href="/blog/2021/05/22/localStorage%E5%92%8CsessionStorage/">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/blog/2021/05/22/HTTPS%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E5%85%B7%E4%BD%93%E6%B5%81%E7%A8%8B/">
+                        HTTPS是什么？具体流程
+                    </a>
+                </h3>
+
+                <div class="home-article-content markdown-body">
+                    
+                        HTTPS 是在 HTTP 和 TCP 之间建立了一个安全层，HTTP 与 TCP 通信的时候，必须先进过一个安全层，对数据包进行加密，然后将加密后的数据包传送给 TCP，相应的 TCP 必须将数据包解密，才能传给上面的 HTTP。
+浏览器传输一个 ...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Sat May 22 2021 16:57:41 GMT+0800">2021-05-22</span></span>
+        
+        
+    </div>
+
+    <a href="/blog/2021/05/22/HTTPS%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E5%85%B7%E4%BD%93%E6%B5%81%E7%A8%8B/">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                <h3 class="home-article-title">
                     <a href="/blog/2021/05/22/HTTP%E4%B8%AD%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE%E7%9A%84%E6%8F%90%E4%BA%A4%EF%BC%9F/">
                         HTTP中如何处理表单数据的提交？
                     </a>
@@ -376,67 +436,6 @@ HTTP 为此引入了 Cookie。Cookie 本质上就是浏览器里面存储的一�
     </div>
 
     <a href="/blog/2021/05/16/%E4%BB%80%E4%B9%88%E6%98%AF%E5%8D%8F%E7%A8%8B%EF%BC%9F/">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                <h3 class="home-article-title">
-                    <a href="/blog/2021/05/16/%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF%E6%9C%BA%E5%88%B6EventLoop/">
-                        事件循环机制EventLoop
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        事件循环机制从整体上告诉了我们 JavaScript 代码的执行顺序 Event Loop 即事件循环，是指浏览器或Node 的一种解决 javaScript 单线程运行时不会阻塞的一种机制，也就是我们经常使用异步的原理。
-
-宏任务：script/s...
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Sun May 16 2021 10:57:11 GMT+0800">2021-05-16</span></span>
-        
-        
-    </div>
-
-    <a href="/blog/2021/05/16/%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF%E6%9C%BA%E5%88%B6EventLoop/">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                <h3 class="home-article-title">
-                    <a href="/blog/2021/05/15/%E8%83%BD%E4%B8%8D%E8%83%BD%E5%86%99%E4%B8%80%E4%B8%AA%E5%AE%8C%E6%95%B4%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%EF%BC%9F/">
-                        能不能写一个完整的深拷贝？
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        简易版及问题1JSON.parse(JSON.stringify());
-这个api能覆盖大多数的应用场景,但是实际上，对于某些严格的场景来说，这个方法是有巨大的坑的。问题如下：
-
-无法解决 循环引用 的问题。举个例子：12const a = &#1...
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Sat May 15 2021 20:34:28 GMT+0800">2021-05-15</span></span>
-        
-        
-    </div>
-
-    <a href="/blog/2021/05/15/%E8%83%BD%E4%B8%8D%E8%83%BD%E5%86%99%E4%B8%80%E4%B8%AA%E5%AE%8C%E6%95%B4%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%EF%BC%9F/">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
 </div>
 
             </li>
